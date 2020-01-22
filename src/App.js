@@ -6,11 +6,12 @@ import ShopPage from './pages/shoppage/shop.components';
 import Signing from './pages/signing/signing.components';
 import CheckoutPage from './pages/checkout/checkout.component'
 import Header from './components/header/header.component';
-import { auth, createUserProfileDocument } from './firebase/firebase.utils';
+import { auth, createUserProfileDocument, addCollectionAndDocuments } from './firebase/firebase.utils';
 import { connect } from 'react-redux';
 import { setCurrentUser} from './redux/user/user.actions';
 import { createStructuredSelector } from 'reselect';
-import { selectCurrentUser } from './redux/user/user.selectors'
+import { selectCurrentUser } from './redux/user/user.selectors';
+import { selectCollectionsForPreview } from './redux/shop/shop.selectors';
 
 class App extends React.Component {
   unsubscribeFromAuth = null;
