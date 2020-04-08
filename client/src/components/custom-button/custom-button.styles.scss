@@ -42,4 +42,13 @@
           border: none;
       }
   }
+  
+    @media screen and (max-width: 800px){
+      min-width:100px;
+      height: 40px;
+      letter-spacing: 0.7px;
+      line-height: 40px;
+      padding: 0 15px;
+      font-size: 15px;
+  }
 }

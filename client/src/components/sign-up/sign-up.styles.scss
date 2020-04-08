@@ -10,4 +10,9 @@
         display: flex;
         justify-content: space-between;
     }
+
+    @media screen and (max-width: 800px){
+        width:unset;
+        margin-top: 80px;;
+    }
 }
