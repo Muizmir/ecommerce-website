@@ -1,12 +1,13 @@
 .contact-image {
   min-width: 30%;
-  height: 300px;
+  height: 320px;
   flex: 1 1 auto;
   display: flex;
   align-items: center;
   justify-content: center;
   border: 1px solid black;
   margin: 0px auto;
+  margin-top: 20px;
   overflow: hidden;
 
   &:hover {

@@ -18,7 +18,8 @@ const Header = ({ currentUser, hidden, signOutStart }) => (
     <HeaderContainer>
         <LogoContainer to="/">
             <Logo className='logo' />
-        </LogoContainer>
+            <span>&nbsp;MZMART</span>
+        </LogoContainer> 
         <OptionsContainer>
             <OptionLink to="/shop">
                 SHOP

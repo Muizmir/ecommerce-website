@@ -8,7 +8,7 @@ const ContactDescription = () => (
         className='contact-description'
     >
     <p>
-            This is a e-commerce website built by me using React. I have used libraries like react-redux, react-router, react-redux-sagas etc. In addition, I have used Firebase to setup user authentication and store the details of items. I have used SCSS to style the components. To manage the payments, I have used StripeJS  and used Express server to forward the payment from the website to Stripe API.
+            This is a e-commerce website built by me using React. I have used libraries like react-redux, react-router, react-redux-sagas etc. In addition, I have used Firebase to setup user authentication and store the details of items. I have used SCSS to style the components. To manage the payments, I have used StripeJS  and used Express server to forward the payment from the website to Stripe API. This website is also a Progressive Web App, and can be added as an app on phone.
             <br/> <br />
             Please feel free to work around the website and your comments and feedback are welcomed. My LinkedIn profile is displayed below.
 
