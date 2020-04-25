@@ -1,0 +1,28 @@
+.contact-description {
+  min-width: 40%;
+  min-height: 80%;
+  margin: 10px;
+  overflow: hidden;
+
+
+    p {
+      font-weight: normal;
+      text-align: justify;
+      text-justify: inter-word;
+      margin: 5px;
+      font-size: 24px;
+      color:black;
+
+      @media screen and (max-width: 800px){
+        font-size: 20px;
+    } 
+    }
+
+    .linkedin{
+        width: 85%;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+   
+}
