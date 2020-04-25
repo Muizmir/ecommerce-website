@@ -1,4 +1,4 @@
-import React, { useEffect, lazy, suspense, Suspense } from 'react';
+import React, { useEffect, lazy, Suspense } from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import { GlobalStyle } from './global.styles';
 
@@ -23,18 +23,7 @@ const App = ({ checkUserSession, currentUser }) => {
     checkUserSession()
   }, [checkUserSession])
 
-  useEffect(() => {
-    const script = document.createElement('script');
-
-    script.src = "https://platform.linkedin.com/badges/js/profile.js";
-    script.async = false;
-
-    document.body.appendChild(script);
-
-    return () => {
-      document.body.removeChild(script);
-    }
-  }, []);
+ 
 
     return (      
       <div>
